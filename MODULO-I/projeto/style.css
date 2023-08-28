@@ -1,0 +1,28 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    /*Alinhando os elementos*/
+    width: 100%;
+    height:100vh; 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /**/
+}
+.card{
+    width: 400px;
+    height: 500px;
+    background-image: url('https://img.freepik.com/vetores-gratis/paisagem-em-branco-do-parque-natural-na-hora-do-por-do-sol_1308-60489.jpg');
+    /*Configurando a imagem*/
+    background-position: center;
+    background-repeat: no-repeat;/*impede a imagem de ficar repetindo na tela*/
+    background-size: cover;/*faz a imagem tentar preencher o card*/
+    /**/
+    /*Centraliza os elementos do card*/
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
